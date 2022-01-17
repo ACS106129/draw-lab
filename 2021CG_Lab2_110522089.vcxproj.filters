@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\draw">
+      <UniqueIdentifier>{8c8ab0ef-d7a7-413d-8d50-9e70a7dacaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw">
+      <UniqueIdentifier>{9095ad45-b7b9-4d35-b669-cab570ee4833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\util">
+      <UniqueIdentifier>{7da936cb-eedf-4feb-a814-00c3cdd80d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\command">
+      <UniqueIdentifier>{09fea32f-5033-4be1-9e87-cbcf21ac37da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\command">
+      <UniqueIdentifier>{7e139d16-ecdb-4a48-99b9-270d70ef643f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\transform">
+      <UniqueIdentifier>{7b0b7d7e-8c53-48b2-9b06-3617f6f93e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\transform">
+      <UniqueIdentifier>{6588606d-a440-4553-994f-b31663fd3f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\shape">
+      <UniqueIdentifier>{053a7e72-7d9c-4472-a068-6e4d39d1222d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\transform\matrix">
+      <UniqueIdentifier>{245eda9f-2a32-40b0-9e7d-68f65bdef6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\shape">
+      <UniqueIdentifier>{20dd5839-6d97-4165-8c77-0a7c540206de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\util">
+      <UniqueIdentifier>{057c7b6d-4452-4b56-abe4-941de399bcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\transform\matrix">
+      <UniqueIdentifier>{732925fe-55ce-4713-a86f-5482d854b217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\view">
+      <UniqueIdentifier>{a9924e2e-8c13-40d1-a451-11c87d59ae8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\color">
+      <UniqueIdentifier>{865ab3c2-47ca-46bc-81ba-d6004c44ba3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\view">
+      <UniqueIdentifier>{387f8da9-582b-442f-a57d-ee428c71a14c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\command\Command.cpp">
+      <Filter>來源檔案\draw\command</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\transform\Rotate.cpp">
+      <Filter>來源檔案\draw\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\transform\Scale.cpp">
+      <Filter>來源檔案\draw\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\transform\Translate.cpp">
+      <Filter>來源檔案\draw\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\shape\Shape.cpp">
+      <Filter>來源檔案\draw\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\shape\Square.cpp">
+      <Filter>來源檔案\draw\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\shape\Triangle.cpp">
+      <Filter>來源檔案\draw\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\util\Angle.cpp">
+      <Filter>來源檔案\draw\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\transform\Transform.cpp">
+      <Filter>來源檔案\draw\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\transform\matrix\TransformMatrix.cpp">
+      <Filter>來源檔案\draw\transform\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\view\View.cpp">
+      <Filter>來源檔案\draw\view</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\view\ViewPort.cpp">
+      <Filter>來源檔案\draw\view</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\Point.cpp">
+      <Filter>來源檔案\draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="2021CG_Lab2_110522089_with_testcases.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Main.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\util\Util.h">
+      <Filter>標頭檔\draw\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\command\Command.h">
+      <Filter>標頭檔\draw\command</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\command\CommandType.h">
+      <Filter>標頭檔\draw\command</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\transform\Rotate.h">
+      <Filter>標頭檔\draw\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\transform\Scale.h">
+      <Filter>標頭檔\draw\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\transform\Transform.h">
+      <Filter>標頭檔\draw\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\transform\Translate.h">
+      <Filter>標頭檔\draw\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\util\Angle.h">
+      <Filter>標頭檔\draw\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\shape\Shape.h">
+      <Filter>標頭檔\draw\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\shape\Square.h">
+      <Filter>標頭檔\draw\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\shape\Triangle.h">
+      <Filter>標頭檔\draw\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\transform\matrix\TransformMatrix.h">
+      <Filter>標頭檔\draw\transform\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\view\View.h">
+      <Filter>標頭檔\draw\view</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\view\ViewPort.h">
+      <Filter>標頭檔\draw\view</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\color\Color.h">
+      <Filter>標頭檔\draw\color</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\Point.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\shape\ShapeType.h">
+      <Filter>標頭檔\draw\shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="resources\lab2A.in" />
+    <CopyFileToFolders Include="resources\lab2B.in" />
+    <CopyFileToFolders Include="resources\lab2C.in" />
+    <CopyFileToFolders Include="resources\lab2D.in" />
+    <CopyFileToFolders Include="resources\lab2E.in" />
+  </ItemGroup>
+</Project>
