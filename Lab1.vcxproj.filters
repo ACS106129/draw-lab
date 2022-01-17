@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\draw">
+      <UniqueIdentifier>{1edf62bb-b16a-49f9-a085-78da2fd7bede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\impl">
+      <UniqueIdentifier>{5e4289b8-83c5-488d-89e0-c4ee2c067c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\draw\base">
+      <UniqueIdentifier>{4b2cd183-87de-46ce-ab5a-cf42cdc0f12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw">
+      <UniqueIdentifier>{a716f7c3-ce6e-44b1-9fbe-a598cdb505a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\draw\base">
+      <UniqueIdentifier>{61e2051b-228e-4114-9c16-4fe24c56dba1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\base\Appendable.cpp">
+      <Filter>來源檔案\draw\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\base\Drawable.cpp">
+      <Filter>來源檔案\draw\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\Circle.cpp">
+      <Filter>來源檔案\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\Dot.cpp">
+      <Filter>來源檔案\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\Line.cpp">
+      <Filter>來源檔案\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw\Polygon.cpp">
+      <Filter>來源檔案\draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Main.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\impl\ICompletable.h">
+      <Filter>標頭檔\draw\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\base\Appendable.h">
+      <Filter>標頭檔\draw\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\base\Drawable.h">
+      <Filter>標頭檔\draw\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\base\Printable.h">
+      <Filter>標頭檔\draw\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\Circle.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\Dot.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\mode\DrawMode.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\Line.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw\Polygon.h">
+      <Filter>標頭檔\draw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
